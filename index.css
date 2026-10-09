@@ -188,7 +188,7 @@ background-color: var(--secondary-color);
 
 .card
 {
-  display: flex;
+ 
   gap: 1rem;
   display: flex;
   align-items: center;
@@ -205,7 +205,7 @@ background-color: var(--secondary-color);
   display: flex;
   gap: 2rem;
   
- 
+ width: 100%;
 }
 
 .Card-text
@@ -253,6 +253,7 @@ gap: 2rem;
 /* .teax-width
 {
   width: 50rem;
+
 } */
 /* bold image end */
 
@@ -262,7 +263,7 @@ gap: 2rem;
 /* secton */
 .secton-image
 {
-  width: 23rem;
+  width: 100%;
   height: 13rem;
   border-radius: 1rem;
  /* margin-bottom: 1rem; */
@@ -276,7 +277,7 @@ gap: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-/* width: 10%; */
+width: 100%;
 
 }
 
@@ -306,7 +307,8 @@ width: 20rem;
 {
   display: flex;
 gap: 7rem;
-justify-self: flex-end;
+
+/* justify-self: flex-end; */
 
 
 }
@@ -327,7 +329,7 @@ justify-self: flex-end;
 
 .section-flex
 {
- width: auto;
+ width: 100%;
   background-color: var(--white);
 padding: 3rem 0rem 3rem;
 
@@ -345,10 +347,10 @@ padding: 3rem 0rem 3rem;
    display: flex;
    align-items: center;
   justify-content: space-between;
-  max-width: 120rem;
+  /* max-width: 120rem; */
   margin: 0 auto;
  
- width: 100%;
+ width: 90%;
 
 }
 
@@ -641,6 +643,7 @@ transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 
 
@@ -686,11 +689,13 @@ transform: translate(-50%, -50%);
 
 .section-rap{
   gap: 2rem;
+  width: 100%;
+
 }
 
 .section-container{
   padding: 0rem 3rem;
-  width: 100%;
+  width: 90%;
 }
 
 .showform
@@ -732,7 +737,7 @@ transform: translate(-50%, -50%);
 .section-container{
   flex-direction: column;
   padding: 0rem 5rem;
-  /* width: 100%; */
+ 
 }
 
 .prodoct-rap{
@@ -752,8 +757,10 @@ height: 30rem;
 }
 
 .section-rap{
+  width: 100%;
   gap: 1rem;
-  
+   overflow-x: hidden;
+scrollbar-width: none;
 }
 
 .view-all-products{
@@ -804,12 +811,18 @@ margin-top: 3rem;
 {
   display: flex;
   gap: 0rem;
- 
+  width: 100%;
+ overflow-x: scroll;
+scrollbar-width: none;
 }
 .secton-image{
-width: 100%;
+width: auto;
 }
 
+
+.secton-image:hover{
+transform: none;
+}
 
 
 
@@ -833,6 +846,7 @@ align-self: flex-start;
 .cards-rap
 {
   flex-direction: column;
+  width: 100%;
 }
 .card{
   width: 100%;
@@ -874,6 +888,7 @@ display: inline;
   display: flex;
   gap: 1rem;
   align-items: center;
+  
 }
 
 .secton-image{
@@ -885,6 +900,10 @@ display: inline;
   
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.card{
+  width: 100%;
 }
 
 }
@@ -914,6 +933,13 @@ display: inline;
     /* 6px/16= 50%*/
     font-size: 37%;
   }
+
+.card{
+  width: 100%;
+  justify-content: space-between;
+}
+
+
 }
 
 
