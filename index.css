@@ -231,8 +231,8 @@ h3
 {
  
   height: 40rem;
-  max-width: 50rem;
-width: 100%;
+  max-width: 100%;
+width: 50rem;
 border: 2rem solid var(--secondary-color);
 border-radius: 2rem;
 display: flex;
@@ -679,6 +679,7 @@ transform: translate(-50%, -50%);
 
 
 .text-bold-image-rap{
+
  flex-direction: column;
  margin: 1rem;
 }
@@ -776,6 +777,12 @@ font-size: var(---fivth-font-1-5rem);
   
 }
 
+
+.featur-section{
+  Width: 100%;
+font-size: var(---fivth-font-1-5rem);
+}
+
 }
 
 
@@ -846,10 +853,12 @@ align-self: flex-start;
 .cards-rap
 {
   flex-direction: column;
-  width: 100%;
+width: 30rem;
+  justify-self: center;
+  align-items: center;
 }
 .card{
-  width: 100%;
+    
   justify-content: space-between;
 }
 
@@ -905,6 +914,12 @@ display: inline;
 .card{
   width: 100%;
 }
+.featurerranging{
+  margin:auto;
+}
+
+
+
 
 }
 
