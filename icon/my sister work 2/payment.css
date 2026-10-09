@@ -1,0 +1,89 @@
+/* global */
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+body
+{
+  background-color:#fef5f0;
+color:#212529 ;
+}
+
+html
+{
+  font-size: 62.5%;
+}
+
+:root
+{
+
+  ---bg-color:#fef5f0;
+  --primarey-colore:#f76707;
+  --secondary-color:#ff922b;
+  ---third-color:#212529;
+  --fourth-color:white;
+  --white:white;
+
+  /* font size */
+
+  ---primary-font-5rem:5rem;
+  ---secondary-font-3rem:3rem;
+  ---third-font-2-5rem-:2.5rem;
+  ---fourt-font-2rem:2rem;
+  ---fivth-font-1-5rem:1.5rem;
+  ---sixth-font-1rem:1rem;
+  
+}
+
+/* global end */
+
+.container
+{
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.payment-direction
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+
+.rap
+{
+  width: 30rem;
+  height: 10rem;
+  background-color: gray;
+}
+
+img
+{
+  width: 50rem;
+ 
+ 
+}
+
+.them{
+   position: relative;
+}
+.them::before{
+  background: white;
+  filter: blur(40px);
+  opacity: 0.25;
+  z-index: -1;
+  border-radius: 20px;
+  position: absolute;
+  inset: -20px;
+  content: '';
+}
+.uploadimag
+{
+  width: 6rem;
+}
