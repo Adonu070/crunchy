@@ -16,15 +16,16 @@
 <header>
 
 
-  <div class="logo-text-rap">
+  <div class="logo-text-rap reveal">
 <img  class="head-image" src="logo/A.svg" alt="">
-<h2 class="head-text"> <span class="Merit">Merit</span> Crunch</h2>
-<P class="test">Taste it once, trust it always</P>
+<h2 class="head-text reveal"> <span class="Merit">Merit</span> Crunch</h2>
+<P class="test reveal">Taste it once, trust it always</P>
 </div>
 
-<div>
+<div  >
 
-<button onclick="ordernow()"><img class="btn-image" src="icon/bag.svg" alt="">Order now</button>
+<button onclick="ordernow()"class="topbuynow" >
+  <img class="btn-image" src="icon/bag.svg" alt="" >Order now</button>
 </div>
 
 </header>
@@ -44,12 +45,13 @@
 <!-- <div   -->
 
 
- <div class="featur-section">
+ <div class="featur-section reveal">
 <p class="always"><img class="int-image" src="icon/leaf.svg" alt="">Always fresh</p>
 
 <div class="feature-head">
 <h1 class="crunchy">Crunchy.tasty.</h1>
-<h1 class="made">Made for you.</h1></div>
+<h1 class="made">Made for you.</h1>
+</div>
 
 
 <p class="p-discription">Delicious snacks made with Quality ingredient and <br>lots of love  perfect for every moment, anytime, anywhere.</p>
@@ -66,7 +68,7 @@
 
 <div class="cards-rap">
 
-<div class="card">
+<div class="card reveal">
   <div class="card-flex">
   <img class="int-image" src="icon/leaf.svg" alt="">
   <div class="Card-text">
@@ -79,7 +81,7 @@
 
 
 
-<div class="card">
+<div class="card reveal">
   <div class="card-flex">
 <img class="int-image" src="icon/happy-face.svg" alt="">
 <div class="Card-text">
@@ -91,7 +93,7 @@
 </div>
 
 
-<div class="card">
+<div class="card reveal">
   <div class="card-flex">
   <img class="int-image" src="icon/love.svg" alt="">
   <div class="Card-text">
@@ -106,7 +108,7 @@
 </div>
 
 
-  <img class="b-image" src="image/all packed.jpg" alt="">
+  <img class="b-image reveal" src="image/all packed.jpg" alt="">
 
   
 </div>
@@ -125,14 +127,14 @@
 <!-- registering page -->
 
 <div id="showform"   class="deatails" >
-<div 6 class="showform">
+<div class="showform ">
 
  <div id="signinproperties" class="pagesproperties">
-<div class="form-rap">
+<div class="form-rap reveal">
 <span>We need some <br>details from you</span>
 
 
-<div class="form-option">
+<div class="form-option reveal">
   <button  class="forbtn" onclick="thatpageemail()">Email</button>
     
     |
@@ -151,7 +153,7 @@
 <form id="formsub" class="form-ranging" action="/sin/sub" method="post">
 
 <div  id="clolose-email"  class="thatpage">
-  <div class="singup-form" >
+  <div class="singup-form reveal" >
 
   <label for="email" >Enter your Email*</label>
 
@@ -169,7 +171,7 @@
 
  <div id="close-phone" class="thatpage">
 
-  <div class="singup-form">
+  <div class="singup-form reveal">
 
 
   <label for="phone">Enter your phone number*</label>
@@ -209,11 +211,11 @@
 
 
 <div id="longinproperties" class="pagesproperties">
-<div class="form-rap">
+<div class="form-rap reveal">
 <span>Welcom back</span>
 
 
-<div class="form-option">
+<div class="form-option ">
   <button  class="forbtn" onclick="loginemail()">Email</button>
     
     |
@@ -229,7 +231,7 @@
 
 
 <div  id="loginemailpage"  class="thatpage">
-  <div class="singup-form" >
+  <div class="singup-form reveal" >
 
   <label for="email" >Enter your Email*</label>
 
@@ -247,7 +249,7 @@
 
  <div id="loginphonepage" class="thatpage">
 
-  <div class="singup-form">
+  <div class="singup-form reveal">
 
 
   <label for="phone">Enter your phone number*</label>
@@ -266,7 +268,7 @@
 
 </div>
 
-<span class="allowing" id="allowing" onclick="login()"></span>
+<span class="allowing reveal" id="allowing" onclick="login()"></span>
 <!-- login end-->
 
 </div>
@@ -392,5 +394,6 @@
 
 
 <script src="page.js"></script>
+<script src="reaction.js"></script>
 </body>
 </html>
